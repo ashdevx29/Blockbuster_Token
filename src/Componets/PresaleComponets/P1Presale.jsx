@@ -9,7 +9,7 @@ import S3Partners from "../HomeComponets/S3Partners"
 
 const S1Presale = () => {
   return (
-    <section className="relative min-h-[95vh] overflow-hidden">
+    <section className="relative min-h-[75vh] sm:min-h-[95vh] overflow-hidden">
 
       {/* Video Background */}
       <video
