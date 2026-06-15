@@ -1,0 +1,85 @@
+@import "tailwindcss";
+
+body {
+  background: #000;
+  margin: 0;
+}
+
+.marquee {
+  width: 100%;
+}
+
+.marquee-content {
+  display: flex;
+  width: max-content;
+  flex-wrap: wrap;
+  column-gap: 2.5rem;
+  row-gap: 4rem;
+  animation: marquee 25s linear infinite;
+}
+
+.marquee-content:hover {
+  animation-play-state: paused;
+}
+
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+
+.partner-track {
+  display: flex;
+  width: max-content;
+  animation: marquee 25s linear infinite;
+}
+
+.partner-track:hover {
+  animation-play-state: paused;
+}
+
+@keyframes marquee {
+  from {
+    transform: translateX(0%);
+  }
+
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+
+
+
+
+
+.text-gradient {
+  background: linear-gradient(90deg, #E0A634 0%, #FFDB87 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.head-text {
+  background: linear-gradient(90deg, #D0A840 0%, #FFB800 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.scroll-animate {
+  opacity: 0;
+  transform: translateY(60px);
+  transition: opacity 0.8s ease, transform 0.8s ease;
+  will-change: transform, opacity;
+}
+
+.scroll-animate.show {
+  opacity: 1;
+  transform: translateY(0);
+
+  
+}
