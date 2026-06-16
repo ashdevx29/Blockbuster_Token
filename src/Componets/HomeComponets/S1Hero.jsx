@@ -7,20 +7,20 @@ import network from "../../assets/network.png";
 import TicketCard from "./S2TicketCard";
 import S3Partners from "./S3Partners";
 
-import nftIcon from "../../assets/ticket/nft-icon.png";
-import stakingIcon from "../../assets/ticket/staking-icon.png";
+import nftIcon from "../../assets/ticket/rwa.png";
+import stakingIcon from "../../assets/ticket/fastsecure.png";
 import governanceIcon from "../../assets/ticket/governance-icon.png";
 import gamingIcon from "../../assets/ticket/gaming-icon.png";
 import rewardIcon from "../../assets/ticket/reward-icon.png";
 
 const cards = [
   {
-    title: "NFT Marketplace",
+    title: "RWA — Film & Entertainment",
     icon: nftIcon,
     variant: "gold",
   },
   {
-    title: "Staking & NFT Staking",
+    title: "Fast & Secure BEP-20",
     icon: stakingIcon,
     variant: "dark",
   },
@@ -35,7 +35,7 @@ const cards = [
     variant: "dark",
   },
   {
-    title: "5% Referral Rewards",
+    title: "Referral Rewards",
     icon: rewardIcon,
     variant: "gold",
   },
@@ -77,22 +77,24 @@ const S1Hero = () => {
 
             {/* Heading */}
             <h2 className="text-white max-w-[680px] mx-auto text-3xl sm:text-5xl md:text-6xl font-normal sm:font-light leading-tight">
-              The Entertainment Token of{" "}
+              The{" "}
               <span className="head-text font-semibold sm:font-medium">
-                Web3
+                Web3{" "}
               </span>
+              Entertainment & {" "}  
+              <span className="head-text font-semibold sm:font-medium">Real-World{" "} </span> 
+              Asset Token
             </h2>
 
             {/* Description */}
-            <p className="mt-4 sm:mt-6 font-['Poppins'] text-[#919191] text-sm sm:text-lg leading-6 sm:leading-8 max-w-[840px] mx-auto">
-              Blockbuster Token (BBT) is a next-generation BEP-20 utility token
-              powering a decentralized entertainment ecosystem built around NFTs,
-              staking, rewards, gaming, and community participation.
+            <p className="mt-4 sm:mt-6 font-['Poppins'] text-[#919191] text-sm sm:text-lg leading-6 sm:leading-8 max-w-[880px] mx-auto">
+              Blockbuster Token (BBT) is a BEP-20 utility token powering a decentralized entertainment ecosystem. It combines NFTs, staking, rewards, gaming, governance, and tokenized real-world entertainment assets like film royalties, revenue shares, and production funding.
+
             </p>
 
-            <p className="mt-2 sm:mt-3 font-['Poppins'] text-[#919191] text-sm sm:text-lg leading-6 sm:leading-8 max-w-[840px] mx-auto">
-              Empowering creators, collectors, gamers, and investors through a
-              secure, scalable, and utility-driven blockchain economy.
+            <p className="mt-2 sm:mt-3 font-['Poppins'] text-[#919191] text-sm sm:text-lg leading-6 sm:leading-8 max-w-[880px] mx-auto">
+              Connecting creators, fans, gamers, and investors through a secure blockchain-powered economy.
+
             </p>
 
             {/* Buttons */}

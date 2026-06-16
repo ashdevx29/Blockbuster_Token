@@ -27,20 +27,17 @@ const AboutSection = () => {
             </span>
 
             <h2 className="mt-3 text-white  text-2xl sm:text-5xl lg:text-3xl xl:text-5xl font-[500] leading-tight">
-              Powering Entertainment with Blockchain
+              About Blockbuster Token
             </h2>
 
             <p className="mt-4 text-[#919191] text-sm sm:text-base md:text-lg leading-relaxed max-w-full lg:max-w-xl">
-              Blockbuster Token (BBT) is a next-generation BEP-20 utility
-              token powering a decentralized entertainment ecosystem built
-              around NFTs, staking, rewards, gaming, and community
-              participation.
+              Blockbuster Token (BBT) has evolved from a purely entertainment-focused utility token into a hybrid Entertainment + RWA ecosystem. BBT now powers NFTs, staking, rewards, gaming, and decentralized governance, while also enabling fractional ownership of tokenized real-world entertainment assets such as film production slates, distribution royalties, and box-office revenue participation.
             </p>
 
-            <p className="mt-1 text-[#919191] text-sm sm:text-base md:text-lg leading-relaxed max-w-full lg:max-w-xl">
+            {/* <p className="mt-1 text-[#919191] text-sm sm:text-base md:text-lg leading-relaxed max-w-full lg:max-w-xl">
               Empowering creators, collectors, gamers, and investors through a
               secure, scalable, and utility-driven blockchain economy.
-            </p>
+            </p> */}
 
             {/* Buttons */}
             <div className="flex flex-wrap justify-center lg:justify-start gap-4 mt-8">

@@ -28,13 +28,14 @@ const roadmapData = [
   },
   {
     quarter: "Q1 2027",
-    title: "NFT Ecosystem",
+    title: "NFT & RWA Ecosystem",
     side: "left",
     top: "280px",
     items: [
       "NFT Marketplace",
       "Minting Platform",
       "Creator Dashboard",
+      "RWA Vault — First Entertainment Asset Onboarding",
     ],
   },
   {
@@ -46,6 +47,7 @@ const roadmapData = [
       "BBT Staking",
       "NFT Staking",
       "Loyalty Program",
+      "RWA Revenue-Share Distribution Module",
     ],
   },
   {
@@ -57,6 +59,7 @@ const roadmapData = [
       "CoinGecko Listing",
       "CoinMarketCap Listing",
       "Exchange Partnerships",
+      "Additional RWA Asset Classes Onboarded",
     ],
   },
   {
@@ -68,6 +71,7 @@ const roadmapData = [
       "DAO Launch",
       "Community Voting",
       "Gaming & Metaverse Integrations",
+      "DAO-Governed RWA Asset Approval Framework",
     ],
   },
 ];
@@ -90,11 +94,11 @@ const Roadmap = () => {
           </span>
 
           <h2 className="max-w-[519px] mx-auto text-center text-white  text-3xl sm:text-5xl lg:text-3xl xl:text-[35px] font-[500] leading-tight mb-2">
-            Shaping the Future of Decentralized Entertainment
+            Roadmap to Sustainable Ecosystem Growth
           </h2>
 
           <p className="text-center text-[#919191] text-[15] sm:text-base md:text-lg mt-2 md:mt-4 leading-5 sm:leading-6 md:leading-8">
-            Our strategic journey toward innovation, ecosystem expansion, NFT adoption, gaming integration, and global community growth. Guided by a long-term vision, we are committed to delivering meaningful utility, expanding ecosystem capabilities, fostering strategic partnerships, and creating a thriving blockchain-powered entertainment economy that rewards participation, creativity, and community engagement.
+            A strategic roadmap outlining milestones across development, token launch, NFTs, RWAs, staking, governance, and ecosystem expansion to drive long-term growth and adoption.
           </p>
         </div>
 
@@ -154,7 +158,7 @@ const Roadmap = () => {
                 {item.items.map((list, i) => (
                   <li
                     key={i}
-                    className="text-[#FFFFFF] text-base lg:text-lg font-[400] flex items-start gap-2"
+                    className="text-[#FFFFFF] text-sm lg:text-base font-[400] flex items-start gap-2"
                   >
                     <span>•</span>
                     {list}

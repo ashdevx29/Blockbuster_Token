@@ -7,32 +7,33 @@ const faqData = [
   {
     question: "What is BBT?",
     answer:
-      "A BEP-20 utility token powering the Blockbuster entertainment ecosystem on Binance Smart Chain.",
+      "A BEP-20 hybrid utility token powering the Blockbuster entertainment ecosystem on Binance Smart Chain, now expanded to include Real World Asset (RWA) tokenization.",
   },
   {
     question: "What can BBT be used for?",
     answer:
-      "BBT can be used for ticket purchases, NFT access, rewards, staking, and governance features within the ecosystem.",
+      "NFTs, RWA-backed entertainment assets, staking, rewards, gaming, payments, referrals, and governance.",
+  },
+  {
+    question: "What is RWA in the BBT ecosystem?",
+    answer:
+      "RWA stands for Real World Assets — tokenized entertainment assets such as film royalties, box-office revenue shares, and production financing, brought on-chain for transparent, fractional ownership and revenue participation.",
   },
   {
     question: "Is staking available?",
     answer:
-      "Yes. Users can stake BBT tokens and earn rewards through the staking platform.",
+      "Yes. Users can stake both BBT tokens and NFTs to earn rewards.",
   },
   {
     question: "Which blockchain is used?",
     answer:
-      "BBT is deployed on Binance Smart Chain (BSC) for fast and low-cost transactions.",
+      "Binance Smart Chain (BEP-20).",
   },
-  {
-    question: "What is the referral reward?",
-    answer:
-      "Users can earn referral commissions by inviting new participants into the ecosystem.",
-  },
+  
   {
     question: "Will BBT support governance?",
     answer:
-      "Yes. Governance functionality will allow token holders to vote on ecosystem proposals.",
+      "Yes. DAO governance is planned in future phases (Q4 2027), including governance over RWA asset onboarding and approval.",
   },
 ];
 

@@ -90,7 +90,7 @@ const VisionMission = () => {
                                 </h3>
 
                                 <p className="text-[#ffffff] text-[13px] sm:text-sm lg:text-base xl:text-lg font-[400] leading-5 lg:leading-6 xl:leading-8  max-w-full md::max-w-[420px]">
-                                    To become a leading blockchain-powered entertainment ecosystem connecting creators, communities, and digital economies worldwide.
+                                    Leading blockchain ecosystem bridging entertainment and real-world assets, connecting creators and investors to revenue-backed economies worldwide.
                                 </p>
 
                             </div>
@@ -117,7 +117,7 @@ const VisionMission = () => {
                                     </h3>
 
                                     <p className="text-[#ffffff] text-[13px] sm:text-sm lg:text-base xl:text-lg font-[400] leading-5 lg:leading-6 xl:leading-8">
-                                        To deliver real utility through NFTs, rewards, staking, gaming integrations, and decentralized governance.
+                                        Empower users through NFTs, RWA-backed rewards, staking, gaming, and decentralized governance with transparent, accessible on-chain value.
                                     </p>
 
                                 </div>

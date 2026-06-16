@@ -130,7 +130,7 @@ const TicketCard = ({ title, icon, variant }) => {
     left-1/2
     -translate-x-1/2
     text-center
-    text-xs
+    text-[11px]
     font-[600]
     leading-tight
     w-[160px]

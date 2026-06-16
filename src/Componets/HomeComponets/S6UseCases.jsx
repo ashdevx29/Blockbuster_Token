@@ -1,7 +1,7 @@
 import React from "react";
 
 
-import nft from "../../assets/usecase/nft-market.png"
+import nft from "../../assets/usecase/rwa.png"
 import staking from "../../assets/usecase/staking.png"
 import nftstaking from "../../assets/usecase/nft-staking.png"
 import ico from "../../assets/usecase/ico.png"
@@ -12,13 +12,13 @@ import governance from "../../assets/usecase/governance.png"
 
 const cards = [
   {
-    title: "NFT Marketplace",
-    desc: "Buy, sell, and trade NFTs using BBT tokens seamlessly.",
+    title: "RWA Tokenization",
+    desc: "Own tokenized stakes in entertainment assets.",
     icon: nft,
   },
   {
-    title: "Staking Rewards",
-    desc: "Stake BBT and earn passive rewards over time.",
+    title: "RWA Yield Vault",
+    desc: "Earn rewards from tokenized entertainment revenues.",
     icon: staking,
   },
   {
@@ -51,7 +51,7 @@ const cardss = [
   },
   {
     title: "Governance",
-    desc: "Participate in future DAO voting and platform decisions.",
+    desc: "Participate in DAO voting and RWA asset onboarding decisions.",
     icon: governance,
   },
 ];
@@ -66,14 +66,12 @@ const UseCases = () => {
         </p>
 
         <h2 className="text-center text-white  text-3xl sm:text-5xl lg:text-3xl xl:text-5xl font-[500] leading-tight mb-2">
-          BBT Utility Ecosystem
+          Real Utility, Real Assets, Real Value
         </h2>
 
         <p className="text-center text-[#919191] text-[15] sm:text-base md:text-lg max-w-[918px] mx-auto mt-2 md:mt-6 leading-5 sm:leading-6 md:leading-8">
-          From NFT trading and staking rewards to gaming, payments, governance, and ecosystem participation, BBT is designed to deliver real utility, sustainable value, and meaningful opportunities for every member of the Blockbuster community.
+          Experience real utility through RWA tokenization, yield rewards, NFT staking, gaming, payments, referrals, and decentralized governance—creating sustainable, transparent value across the entertainment ecosystem.
         </p>
-
-
 
         <div className=" hidden lg:block relative pt-6 sm:pt-10">
 
