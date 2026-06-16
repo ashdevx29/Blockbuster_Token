@@ -5,7 +5,7 @@ const WhyJoinPresale = () => {
   const benefits = [
     "Early Access Before Public Launch",
     "Utility-Driven BEP-20 Token",
-    "NFT & Gaming Ecosystem Integration",
+    "RWA Ecosystem Integration",
     "Staking & Reward Opportunities",
     "Community-Powered Growth",
     "Secure & Transparent Blockchain Infrastructure",

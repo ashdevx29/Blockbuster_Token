@@ -146,9 +146,9 @@ const Footer = () => {
                   Contact Us
                 </h4>
 
-                <p className="text-[#FFFFFFCC] font-[400] text-sm leading-7">
+                {/* <p className="text-[#FFFFFFCC] font-[400] text-sm leading-7">
                   Address: [Insert Company Address]
-                </p>
+                </p> */}
 
                 <p className="text-[#FFFFFFCC] font-[400] text-sm leading-7">
                   Email: support@blockbuster.io

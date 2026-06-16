@@ -44,7 +44,7 @@ export default function TokenSaleSection() {
             </h2>
 
             <p className="text-[#FFFFFF80] text-sm md:text-base lg:text-lg  xl:text-xl mt-3 md:mt-6 max-w-full lg:max-w-[580px]">
-              Join the next generation of Web3 entertainment with Blockbuster Token (BBT). Built for NFTs, gaming, staking, rewards, and community-driven growth, BBT empowers users to participate in a thriving decentralized ecosystem from day one.
+              Join the next generation of Web3 entertainment with Blockbuster Token (BBT). Built for RWA, staking, rewards, and community-driven growth, BBT empowers users to participate in a thriving decentralized ecosystem from day one.
             </p>
             <p className="text-[#FFFFFF80] text-sm md:text-base lg:text-lg xl:text-xl mt-2 max-w-full lg:max-w-[580px]">
               Engineered for scalability, security, and real-world utility, Blockbuster Token is creating new opportunities for creators, collectors, gamers, and investors across the digital entertainment landscape.
