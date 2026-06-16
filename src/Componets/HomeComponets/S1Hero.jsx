@@ -110,7 +110,7 @@ const S1Hero = () => {
 
   {/* Whitepaper */}
   <a
-    href="/"
+    href="https://blockbuster-1.gitbook.io/blockbuster-docs"
     target="_blank"
     rel="noopener noreferrer"
   >

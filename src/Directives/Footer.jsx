@@ -17,7 +17,7 @@ const quickLinks = [
   { name: "FAQ", link: "/?=faq" },
   {
     name: "Whitepaper",
-    link: "/",
+    link: "https://blockbuster-1.gitbook.io/blockbuster-docs",
     external: true,
   },
 ];
