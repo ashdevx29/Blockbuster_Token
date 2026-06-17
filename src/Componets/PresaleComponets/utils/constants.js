@@ -1,0 +1,6 @@
+export const PRESALE_ADDRESS = '0x589cAC34CBD0eBd89201da872181B3590422610E';
+export const USDT_ADDRESS = '0x55d398326f99059fF775485246999027B3197955';
+export const TOKEN_ADDRESS = '0xe58B1399F700b44ab2Fd133EecEeFfF2aCC8B91c';
+ 
+ export const MIN_INVESTMENT_USD = 0.1; // Minimum investment in USD
+ export const TOKEN_PRICE = 0.01; // Price per token in USD
