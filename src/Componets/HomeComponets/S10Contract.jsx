@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { FiCopy } from "react-icons/fi";
 
 const ContractAddress = () => {
-  const contractAddress = "8DvyhyQwsNozFqdKdRmTqTvGX5QvpTFqpa1aVJ49tv8d";
+  const contractAddress = "0xd8aE1EFCC9F231771595a26B45AeD13427f27150";
 
   const [copied, setCopied] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
