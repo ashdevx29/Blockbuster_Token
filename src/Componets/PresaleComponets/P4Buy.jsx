@@ -425,6 +425,7 @@ export default function TokenSaleSection() {
   }, [address, usdtAmount]);
 
   return (
+     <>
     <section id="joinpresale"
       className="relative py-8 md:py-16 lg:py-20 xl:py-24 text-white"
       style={{
