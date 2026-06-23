@@ -7,7 +7,7 @@ import PriceDetails from "../../Componets/IcoComponets/PriceDetails";
 import Connect from "./Connect";
 
 import addData from "../../assets/ico_dash/addData.png";
-import AddFundimg from "../../assets/ico_dash/addFund.png";
+import AddFundimg from "../../assets/ico_dash/addfund.png";
 
 const AddFund = () => {
   const { isConnected, address } = useAccount();
