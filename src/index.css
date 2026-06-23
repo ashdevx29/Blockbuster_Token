@@ -83,3 +83,50 @@ body {
 
   
 }
+
+
+
+
+
+/* ico dash */
+
+.Gregular {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+}
+
+.Gbold {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
+
+.bg-gradient {
+  background: linear-gradient(90deg, #E0A634 0%, #FFDB87 100%);
+}
+
+
+
+
+
+.btn1 {
+  background: linear-gradient(90deg, #E0A634 0%, #FFDB87 100%);
+  color: black;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  border-radius: 0.5rem; /* rounded-lg */
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  box-shadow: none;
+}
+
+.btn1:hover {
+  transform: scale(1.05);
+  color: black;
+}
+
+.btn1 > div {
+  color: black !important;
+}

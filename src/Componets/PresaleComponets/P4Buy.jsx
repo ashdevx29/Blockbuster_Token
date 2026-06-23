@@ -12,7 +12,7 @@ export default function TokenSaleSection() {
 
   return (
     <section id="joinpresale"
-      className="relative py-8 md:py-16 lg:py-20 xl:py-24 text-white"
+      className="relative py-8 md:py-16  lg:py-20 xl:py-24 text-white"
       style={{
         backgroundImage: `url(${bgImage})`,
         backgroundSize: "cover",
