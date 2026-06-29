@@ -1,7 +1,7 @@
 import { Web3Button } from "@web3modal/react";
 import { useEffect, useState } from "react";
 import { useAccount } from "wagmi";
-import Web3 from "web3";
+import { ethers } from "ethers";
 import { helper_link } from "../../Componets/IcoComponets/config";
 import { BiWallet } from "react-icons/bi";
 import { IoClose } from "react-icons/io5";
@@ -12,7 +12,7 @@ const Connect = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [walletBal, setWalletBal] = useState("0");
 
-  const Helper_Link = new Web3(helper_link);
+  const provider = new ethers.JsonRpcProvider(helper_link);
 
   const closeModal = () => {
     setIsOpen(false);
@@ -30,10 +30,8 @@ const Connect = () => {
 
   const checkwalletBal = async (walletAddress) => {
     try {
-      const balance = await Helper_Link.eth.getBalance(walletAddress);
-
-      const balanceInEther =
-        Helper_Link.utils.fromWei(balance, "ether");
+      const balance = await provider.getBalance(walletAddress);
+      const balanceInEther = ethers.formatEther(balance);
 
       setWalletBal(balanceInEther);
     } catch (error) {

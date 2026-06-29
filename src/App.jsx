@@ -19,14 +19,14 @@ import SideNav from "./Componets/IcoComponets/SideNav";
 import Loader from "./Componets/IcoComponets/Loader";
 
 // Dashboard Pages
-const DashboardHome = lazy(() => import("./Pages/IcoDash/Dashboard"));
-const AddData = lazy(() => import("./Pages/IcoDash/AddData"));
-const AddFund = lazy(() => import("./Pages/IcoDash/AddFund"));
-const DecreaseFund = lazy(() => import("./Pages/IcoDash/DecreaseFund"));
-const AddWallet = lazy(() => import("./Pages/IcoDash/AddWallet"));
-const RemoveWallet = lazy(() => import("./Pages/IcoDash/RemoveWallet"));
-const UpdatePrice = lazy(() => import("./Pages/IcoDash/UpdatePrice"));
-const BuyHistory = lazy(() => import("./Pages/IcoDash/BuyHistory"));
+// const DashboardHome = lazy(() => import("./Pages/IcoDash/Dashboard"));
+// const AddData = lazy(() => import("./Pages/IcoDash/AddData"));
+// const AddFund = lazy(() => import("./Pages/IcoDash/AddFund"));
+// const DecreaseFund = lazy(() => import("./Pages/IcoDash/DecreaseFund"));
+// const AddWallet = lazy(() => import("./Pages/IcoDash/AddWallet"));
+// const RemoveWallet = lazy(() => import("./Pages/IcoDash/RemoveWallet"));
+// const UpdatePrice = lazy(() => import("./Pages/IcoDash/UpdatePrice"));
+// const BuyHistory = lazy(() => import("./Pages/IcoDash/BuyHistory"));
 
 
 
@@ -173,7 +173,7 @@ function App() {
 
         {/* Dashboard Routes */}
 
-        <Route
+        {/* <Route
           path="/dashboard"
           element={
             <AdminLayout>
@@ -246,9 +246,8 @@ function App() {
         />
 
 
-        {/* Invalid Route Redirect */}
 
-        <Route path="*" element={<Navigate to="/" />} />
+        <Route path="*" element={<Navigate to="/" />} /> */}
 
       </Routes>
 
